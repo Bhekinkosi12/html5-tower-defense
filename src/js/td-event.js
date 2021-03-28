@@ -19,7 +19,7 @@ _TD.a.push(function (TD) {
 		ey: -1, // 事件坐标 y
 		_registers: {}, // 注册监听事件的元素
 
-		// 目前支持的事件类型
+		
 		ontypes: [
 			"enter", // 鼠标移入
 			"hover", // 鼠标在元素上，相当于 onmouseover
@@ -45,7 +45,7 @@ _TD.a.push(function (TD) {
 		},
 
 		/**
-		 * 根据元素名、事件名，生成一个字符串标识，用于注册事件监听
+		 
 		 * @param el {Element}
 		 * @param evt_type {String}
 		 * @return evt_name {String} 字符串标识
